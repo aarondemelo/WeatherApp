@@ -4,9 +4,12 @@
 target 'WeatherApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  
   # Pods for WeatherApp
-
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'SnapKit'
+  
   target 'WeatherAppTests' do
     inherit! :search_paths
     # Pods for testing
