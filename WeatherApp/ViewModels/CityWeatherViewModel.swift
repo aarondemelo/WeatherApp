@@ -9,5 +9,12 @@ import Foundation
 
 class CityWeatherViewModel:ViewModelType
 {
-
+     //load latitude and Longitude
+    // city name
+     //general weather
+    //hourly timeframe array
+    //
+    
+    
+    
 }
