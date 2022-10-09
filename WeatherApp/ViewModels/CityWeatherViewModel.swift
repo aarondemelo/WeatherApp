@@ -7,7 +7,7 @@
 
 import Foundation
 
-class CityWeatherViewModel:ViewModelType
+class CityWeatherViewModel//:ViewModelType
 {
      //load latitude and Longitude
     // city name

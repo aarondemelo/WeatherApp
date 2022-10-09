@@ -29,6 +29,8 @@
 		EAB5E79D28D39220006E6991 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB5E79C28D39220006E6991 /* Endpoint.swift */; };
 		EAF9AE8D28DEEA23005BEBAE /* OpenWeatherEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9AE8C28DEEA23005BEBAE /* OpenWeatherEndpoint.swift */; };
 		EAF9AE9028DEFA47005BEBAE /* OpenWeatherDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9AE8F28DEFA47005BEBAE /* OpenWeatherDTO.swift */; };
+		EAFE473728EF314600E656F6 /* CurrentWeatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = EAFE473528EF314600E656F6 /* CurrentWeatherData.json */; };
+		EAFE473828EF314600E656F6 /* ForecastWeatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = EAFE473628EF314600E656F6 /* ForecastWeatherData.json */; };
 		F4A98FC47084FE07F68515CF /* Pods_WeatherAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A3223E3FC5134E2418691B /* Pods_WeatherAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +85,8 @@
 		EAB5E79C28D39220006E6991 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		EAF9AE8C28DEEA23005BEBAE /* OpenWeatherEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherEndpoint.swift; sourceTree = "<group>"; };
 		EAF9AE8F28DEFA47005BEBAE /* OpenWeatherDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherDTO.swift; sourceTree = "<group>"; };
+		EAFE473528EF314600E656F6 /* CurrentWeatherData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CurrentWeatherData.json; sourceTree = "<group>"; };
+		EAFE473628EF314600E656F6 /* ForecastWeatherData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ForecastWeatherData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,9 @@
 		EAADCBD828ED9EFB008B2D92 /* MockedData */ = {
 			isa = PBXGroup;
 			children = (
+				EAADCBD928ED9F9B008B2D92 /* MockedEndpoints.swift */,
+				EAFE473528EF314600E656F6 /* CurrentWeatherData.json */,
+				EAFE473628EF314600E656F6 /* ForecastWeatherData.json */,
 			);
 			path = MockedData;
 			sourceTree = "<group>";
@@ -259,7 +266,6 @@
 			isa = PBXGroup;
 			children = (
 				EAF9AE8F28DEFA47005BEBAE /* OpenWeatherDTO.swift */,
-				EAADCBD928ED9F9B008B2D92 /* MockedEndpoints.swift */,
 			);
 			path = DTO;
 			sourceTree = "<group>";
@@ -373,6 +379,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFE473728EF314600E656F6 /* CurrentWeatherData.json in Resources */,
+				EAFE473828EF314600E656F6 /* ForecastWeatherData.json in Resources */,
 				EA3EB2D428C32190003E5766 /* LaunchScreen.storyboard in Resources */,
 				EA3EB2D128C32190003E5766 /* Assets.xcassets in Resources */,
 			);

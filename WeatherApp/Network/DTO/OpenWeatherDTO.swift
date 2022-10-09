@@ -13,7 +13,7 @@
 import Foundation
 
 // MARK: - Welcome
-struct CurrentWeatherDTO: Codable {
+public struct CurrentWeatherDTO: Codable {
     let coord: Coord?
     let weather: [Weather]?
     let base: String?
@@ -30,17 +30,17 @@ struct CurrentWeatherDTO: Codable {
 }
 
 // MARK: - Clouds
-struct Clouds: Codable {
+public struct Clouds: Codable {
     let all: Int?
 }
 
 // MARK: - Coord
-struct Coord: Codable {
+public struct Coord: Codable {
     let lon, lat: Double?
 }
 
 // MARK: - Main
-struct Main: Codable {
+public struct Main: Codable {
     let temp, feelsLike, tempMin, tempMax: Double?
     let pressure, seaLevel, grndLevel, humidity: Int?
     let tempKf: Double?
@@ -59,7 +59,7 @@ struct Main: Codable {
 }
 
 // MARK: - Rain
-struct Rain: Codable {
+public struct Rain: Codable {
     let the1H: Double?
     let the3H: Double?
 
@@ -70,7 +70,7 @@ struct Rain: Codable {
 }
 
 // MARK: - Sys
-struct Sys: Codable {
+public struct Sys: Codable {
     let type, id: Int?
     let country: String?
     let sunrise, sunset: Int?
@@ -78,7 +78,7 @@ struct Sys: Codable {
 }
 
 // MARK: - Weather
-struct Weather: Codable {
+public struct Weather: Codable {
     let id: Int?
     let main, weatherDescription, icon: String?
 
@@ -90,7 +90,7 @@ struct Weather: Codable {
 }
 
 // MARK: - Wind
-struct Wind: Codable {
+public struct Wind: Codable {
     let speed: Double?
     let deg: Int?
     let gust: Double?
@@ -106,7 +106,7 @@ struct Weather5Day3HourForecastDTO: Codable {
 }
 
 // MARK: - City
-struct City: Codable {
+public struct City: Codable {
     let id: Int?
     let name: String?
     let coord: Coord?
@@ -115,7 +115,7 @@ struct City: Codable {
 }
 
 // MARK: - List
-struct List: Codable {
+public struct List: Codable {
     let dt: Int?
     let main: Main?
     let weather: [Weather]?
@@ -134,5 +134,11 @@ struct List: Codable {
 }
 
 
+public struct CompleteWeatherDataForLocation
+{
+    let currentWeather:CurrentWeatherDTO?
+    let forecastWeatuer:Weather5Day3HourForecastDTO?
+    
+}
 
 

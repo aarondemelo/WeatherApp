@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         #if DEBUG
         
-        
+        MockedEndpoints.mockWeatherDataEndpoint()
         
         #endif
         

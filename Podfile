@@ -10,6 +10,8 @@ target 'WeatherApp' do
   pod 'RxCocoa'
   pod 'SnapKit'
   
+  pod 'Mocker', :configurations => ['Debug']
+  
   target 'WeatherAppTests' do
     inherit! :search_paths
     # Pods for testing

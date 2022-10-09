@@ -39,7 +39,11 @@ public extension Endpoint
         components.scheme = "https"
         components.host = baseURL
         components.path = path
-        components.queryItems = parameters
+        
+        if parameters.count > 0
+        {
+            components.queryItems = parameters
+        }
         
         guard let url = components.url else { throw NetworkError.invalidURL}
         

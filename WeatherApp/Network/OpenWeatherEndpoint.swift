@@ -27,10 +27,10 @@ enum OpenWeatherEndpoint: Endpoint
     {
         switch self
         {
-        case let .getCurrentWeather(latitude, longitude) :
-            return "data/2.5/weather?lat=\(latitude)&lon=\(longitude)&appid=\(apiKey)"
-        case .get5Day3HourForecast(latitude: let latitude, longitude: let longitude):
-            return "data/2.5/forecast?lat=\(latitude)&lon=\(longitude)&appid=\(apiKey)"
+        case .getCurrentWeather :
+            return "/data/2.5/weather"
+        case .get5Day3HourForecast:
+            return "/data/2.5/forecast"
         }
     }
     
@@ -38,8 +38,21 @@ enum OpenWeatherEndpoint: Endpoint
     {
         switch self
         {
-        default:
-            return []
+        case let .getCurrentWeather(latitude, longitude) :
+            return [
+                URLQueryItem(name: "lat", value: latitude.stringValue),
+                URLQueryItem(name: "lon", value: longitude.stringValue),
+                URLQueryItem(name: "appid", value: apiKey)
+                ]
+        case let .get5Day3HourForecast(latitude, longitude):
+            return [
+                URLQueryItem(name: "lat", value: latitude.stringValue),
+                URLQueryItem(name: "lon", value: longitude.stringValue),
+                URLQueryItem(name: "appid", value: apiKey)
+                ]
+            
+    
+            
         }
     }
     
@@ -57,7 +70,7 @@ enum OpenWeatherEndpoint: Endpoint
         switch self
         {
         default:
-            return ""
+            return "testAPIID"
         }
     }
     

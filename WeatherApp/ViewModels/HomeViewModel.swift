@@ -40,9 +40,13 @@ class HomeViewModel:ViewModelType
             let errorRelay = PublishRelay<String>()
             let reloadRelay = PublishRelay<Void>()
             
-            
             self.input = Input(reload: reloadRelay)
             self.output = Output(cityWeatherViewModels: Driver.just([]), error: errorRelay.asDriver(onErrorJustReturn: "error happened"))
+        
         }
     
+    func fetchModelData()
+    {
+        
+    }
 }
