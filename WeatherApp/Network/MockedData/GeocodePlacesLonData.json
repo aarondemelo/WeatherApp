@@ -1,0 +1,72 @@
+{
+    "1708":
+    {
+        "country": "AR",
+        "lat": "-38.07284",
+        "lng": "-70.61609",
+        "name": "Loncopué"
+    },
+    "9597":
+    {
+        "country": "BE",
+        "lat": "50.66655",
+        "lng": "5.50509",
+        "name": "Loncin"
+    },
+    "16468":
+    {
+        "country": "CL",
+        "lat": "-39.36708",
+        "lng": "-72.63087",
+        "name": "Loncoche"
+    },
+    "61914":
+    {
+        "country": "IN",
+        "lat": "18.75275",
+        "lng": "73.40575",
+        "name": "Lonavla"
+    },
+    "61915":
+    {
+        "country": "IN",
+        "lat": "19.98533",
+        "lng": "76.52046",
+        "name": "Lonar"
+    },
+    "68965":
+    {
+        "country": "IT",
+        "lat": "45.46079",
+        "lng": "10.47732",
+        "name": "Lonato"
+    },
+    "68966":
+    {
+        "country": "IT",
+        "lat": "45.59213",
+        "lng": "8.75194",
+        "name": "Lonate Pozzolo"
+    },
+    "68967":
+    {
+        "country": "IT",
+        "lat": "45.70863",
+        "lng": "8.87936",
+        "name": "Lonate Ceppino"
+    },
+    "72154":
+    {
+        "country": "IT",
+        "lat": "46.14421",
+        "lng": "11.21958",
+        "name": "Lona-Lases"
+    },
+    "124531":
+    {
+        "country": "US",
+        "lat": "39.56592",
+        "lng": "-78.9803",
+        "name": "Lonaconing"
+    }
+}

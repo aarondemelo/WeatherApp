@@ -17,6 +17,10 @@
 		EA3EB2DF28C32191003E5766 /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3EB2DE28C32191003E5766 /* WeatherAppTests.swift */; };
 		EA3EB2E928C32191003E5766 /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3EB2E828C32191003E5766 /* WeatherAppUITests.swift */; };
 		EA3EB2EB28C32191003E5766 /* WeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3EB2EA28C32191003E5766 /* WeatherAppUITestsLaunchTests.swift */; };
+		EA9F584A2907915B00599EB4 /* FirebasePlacesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9F58492907915B00599EB4 /* FirebasePlacesEndpoint.swift */; };
+		EA9F584E2907E05000599EB4 /* GeocodePlacesLData.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9F584B2907E05000599EB4 /* GeocodePlacesLData.json */; };
+		EA9F584F2907E05000599EB4 /* GeocodePlacesLonData.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9F584C2907E05000599EB4 /* GeocodePlacesLonData.json */; };
+		EA9F58502907E05000599EB4 /* GeocodePlacesMumbData.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9F584D2907E05000599EB4 /* GeocodePlacesMumbData.json */; };
 		EAADCBD728ED8950008B2D92 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAADCBD628ED8950008B2D92 /* WeatherModel.swift */; };
 		EAADCBDA28ED9F9B008B2D92 /* MockedEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAADCBD928ED9F9B008B2D92 /* MockedEndpoints.swift */; };
 		EAAE672B28CB43F600790263 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE672A28CB43F600790263 /* AppCoordinator.swift */; };
@@ -31,6 +35,7 @@
 		EAF9AE9028DEFA47005BEBAE /* OpenWeatherDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9AE8F28DEFA47005BEBAE /* OpenWeatherDTO.swift */; };
 		EAFE473728EF314600E656F6 /* CurrentWeatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = EAFE473528EF314600E656F6 /* CurrentWeatherData.json */; };
 		EAFE473828EF314600E656F6 /* ForecastWeatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = EAFE473628EF314600E656F6 /* ForecastWeatherData.json */; };
+		EAFE473B28F3BD9800E656F6 /* PlaceDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE473A28F3BD9800E656F6 /* PlaceDTO.swift */; };
 		F4A98FC47084FE07F68515CF /* Pods_WeatherAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A3223E3FC5134E2418691B /* Pods_WeatherAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +78,10 @@
 		EA3EB2E428C32191003E5766 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3EB2E828C32191003E5766 /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		EA3EB2EA28C32191003E5766 /* WeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA9F58492907915B00599EB4 /* FirebasePlacesEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebasePlacesEndpoint.swift; sourceTree = "<group>"; };
+		EA9F584B2907E05000599EB4 /* GeocodePlacesLData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GeocodePlacesLData.json; sourceTree = "<group>"; };
+		EA9F584C2907E05000599EB4 /* GeocodePlacesLonData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GeocodePlacesLonData.json; sourceTree = "<group>"; };
+		EA9F584D2907E05000599EB4 /* GeocodePlacesMumbData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GeocodePlacesMumbData.json; sourceTree = "<group>"; };
 		EAADCBD628ED8950008B2D92 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		EAADCBD928ED9F9B008B2D92 /* MockedEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedEndpoints.swift; sourceTree = "<group>"; };
 		EAAE672A28CB43F600790263 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
@@ -87,6 +96,7 @@
 		EAF9AE8F28DEFA47005BEBAE /* OpenWeatherDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherDTO.swift; sourceTree = "<group>"; };
 		EAFE473528EF314600E656F6 /* CurrentWeatherData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CurrentWeatherData.json; sourceTree = "<group>"; };
 		EAFE473628EF314600E656F6 /* ForecastWeatherData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ForecastWeatherData.json; sourceTree = "<group>"; };
+		EAFE473A28F3BD9800E656F6 /* PlaceDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +175,7 @@
 		EA3EB2C628C3218E003E5766 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				EAFE473C28F3D17000E656F6 /* Utils */,
 				EAB5E79B28D39113006E6991 /* Network */,
 				EAAE673828CD106D00790263 /* DataStore */,
 				EAAE673528CD0FF300790263 /* Service */,
@@ -209,6 +220,9 @@
 		EAADCBD828ED9EFB008B2D92 /* MockedData */ = {
 			isa = PBXGroup;
 			children = (
+				EA9F584B2907E05000599EB4 /* GeocodePlacesLData.json */,
+				EA9F584C2907E05000599EB4 /* GeocodePlacesLonData.json */,
+				EA9F584D2907E05000599EB4 /* GeocodePlacesMumbData.json */,
 				EAADCBD928ED9F9B008B2D92 /* MockedEndpoints.swift */,
 				EAFE473528EF314600E656F6 /* CurrentWeatherData.json */,
 				EAFE473628EF314600E656F6 /* ForecastWeatherData.json */,
@@ -254,6 +268,7 @@
 		EAB5E79B28D39113006E6991 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				EA9F58492907915B00599EB4 /* FirebasePlacesEndpoint.swift */,
 				EAADCBD828ED9EFB008B2D92 /* MockedData */,
 				EAF9AE8E28DEFA2F005BEBAE /* DTO */,
 				EAB5E79C28D39220006E6991 /* Endpoint.swift */,
@@ -266,8 +281,16 @@
 			isa = PBXGroup;
 			children = (
 				EAF9AE8F28DEFA47005BEBAE /* OpenWeatherDTO.swift */,
+				EAFE473A28F3BD9800E656F6 /* PlaceDTO.swift */,
 			);
 			path = DTO;
+			sourceTree = "<group>";
+		};
+		EAFE473C28F3D17000E656F6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,6 +403,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAFE473728EF314600E656F6 /* CurrentWeatherData.json in Resources */,
+				EA9F584E2907E05000599EB4 /* GeocodePlacesLData.json in Resources */,
+				EA9F58502907E05000599EB4 /* GeocodePlacesMumbData.json in Resources */,
+				EA9F584F2907E05000599EB4 /* GeocodePlacesLonData.json in Resources */,
 				EAFE473828EF314600E656F6 /* ForecastWeatherData.json in Resources */,
 				EA3EB2D428C32190003E5766 /* LaunchScreen.storyboard in Resources */,
 				EA3EB2D128C32190003E5766 /* Assets.xcassets in Resources */,
@@ -518,10 +544,12 @@
 				EAF9AE9028DEFA47005BEBAE /* OpenWeatherDTO.swift in Sources */,
 				EAAE672E28CBB41D00790263 /* CityWeatherViewModel.swift in Sources */,
 				EAAE673728CD102400790263 /* PlacesAutocompleteService.swift in Sources */,
+				EAFE473B28F3BD9800E656F6 /* PlaceDTO.swift in Sources */,
 				EAF9AE8D28DEEA23005BEBAE /* OpenWeatherEndpoint.swift in Sources */,
 				EAAE673A28CD108800790263 /* CoreDataManager.swift in Sources */,
 				EAADCBD728ED8950008B2D92 /* WeatherModel.swift in Sources */,
 				EA3EB2C828C3218E003E5766 /* AppDelegate.swift in Sources */,
+				EA9F584A2907915B00599EB4 /* FirebasePlacesEndpoint.swift in Sources */,
 				EAB5E79D28D39220006E6991 /* Endpoint.swift in Sources */,
 				EAADCBDA28ED9F9B008B2D92 /* MockedEndpoints.swift in Sources */,
 				EA3EB2CA28C3218E003E5766 /* SceneDelegate.swift in Sources */,

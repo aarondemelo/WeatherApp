@@ -1,0 +1,62 @@
+{
+  "14493" : {
+    "country" : "CA",
+    "lat" : "46.91976",
+    "lng" : "-71.08253",
+    "name" : "L'Ange-Gardien"
+  },
+  "14503" : {
+    "country" : "CA",
+    "lat" : "46.79392",
+    "lng" : "-71.35191",
+    "name" : "L'Ancienne-Lorette"
+  },
+  "14667" : {
+    "country" : "CA",
+    "lat" : "43.79572",
+    "lng" : "-79.31408",
+    "name" : "L'Amoreaux"
+  },
+  "15466" : {
+    "country" : "CH",
+    "lat" : "46.64966",
+    "lng" : "6.31907",
+    "name" : "L'Abbaye"
+  },
+  "34399" : {
+    "country" : "ES",
+    "lat" : "38.93333",
+    "lng" : "-0.15",
+    "name" : "L'Alqueria de la Comtessa"
+  },
+  "34493" : {
+    "country" : "ES",
+    "lat" : "38.96667",
+    "lng" : "-0.58333",
+    "name" : "L'Alcúdia de Crespìns"
+  },
+  "34494" : {
+    "country" : "ES",
+    "lat" : "39.19717",
+    "lng" : "-0.50537",
+    "name" : "L'Alcúdia"
+  },
+  "37310" : {
+    "country" : "ES",
+    "lat" : "40.81235",
+    "lng" : "0.71008",
+    "name" : "L'Ampolla"
+  },
+  "37312" : {
+    "country" : "ES",
+    "lat" : "41.66667",
+    "lng" : "2.26667",
+    "name" : "L'Ametlla del Vallès"
+  },
+  "79097" : {
+    "country" : "MQ",
+    "lat" : "14.82094",
+    "lng" : "-61.11749",
+    "name" : "L'Ajoupa-Bouillon"
+  }
+}

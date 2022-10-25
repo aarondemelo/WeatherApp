@@ -20,6 +20,13 @@ public class MockedEndpoints
         MockedEndpoints.registerMockedEndpoint(url: "https://api.openweathermap.org/data/2.5/weather?lat=15.496777&lon=73.827827&appid=testAPIID", fileName: "CurrentWeatherData")
         
         MockedEndpoints.registerMockedEndpoint(url: "https://api.openweathermap.org/data/2.5/forecast?lat=15.496777&lon=73.827827&appid=testAPIID", fileName: "ForecastWeatherData")
+        
+        MockedEndpoints.registerMockedEndpoint(url: "https://placesgeocode-91942-default-rtdb.asia-southeast1.firebasedatabase.app/.json?orderBy=%22name%22&startAt=%22L%22&limitToFirst=10&auth=testAPIID", fileName: "GeocodePlacesLData")
+        
+        MockedEndpoints.registerMockedEndpoint(url: "https://placesgeocode-91942-default-rtdb.asia-southeast1.firebasedatabase.app/.json?orderBy=%22name%22&startAt=%22Lon%22&limitToFirst=10&auth=testAPIID", fileName: "GeocodePlacesLonData")
+        
+        MockedEndpoints.registerMockedEndpoint(url: "https://placesgeocode-91942-default-rtdb.asia-southeast1.firebasedatabase.app/.json?orderBy=%22name%22&startAt=%22Mumb%22&limitToFirst=10&auth=testAPIID", fileName: "GeocodePlacesMumbData")
+        
     }
     
     

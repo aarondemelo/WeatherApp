@@ -1,0 +1,62 @@
+{
+  "15331" : {
+    "country" : "CH",
+    "lat" : "47.54563",
+    "lng" : "7.92123",
+    "name" : "Mumpf"
+  },
+  "53755" : {
+    "country" : "GH",
+    "lat" : "5.26176",
+    "lng" : "-0.75897",
+    "name" : "Mumford"
+  },
+  "63154" : {
+    "country" : "IN",
+    "lat" : "19.07283",
+    "lng" : "72.88261",
+    "name" : "Mumbai"
+  },
+  "75905" : {
+    "country" : "JP",
+    "lat" : "33.7957",
+    "lng" : "130.55895",
+    "name" : "Munakata"
+  },
+  "76085" : {
+    "country" : "KE",
+    "lat" : "0.33474",
+    "lng" : "34.48796",
+    "name" : "Mumias"
+  },
+  "76935" : {
+    "country" : "KZ",
+    "lat" : "43.49988",
+    "lng" : "52.09745",
+    "name" : "Munayshy"
+  },
+  "80950" : {
+    "country" : "MX",
+    "lat" : "20.48794",
+    "lng" : "-89.71387",
+    "name" : "Muna"
+  },
+  "96125" : {
+    "country" : "PH",
+    "lat" : "7.97583",
+    "lng" : "124.06361",
+    "name" : "Munai"
+  },
+  "110430" : {
+    "country" : "RU",
+    "lat" : "45.77251",
+    "lng" : "47.65398",
+    "name" : "Mumra"
+  },
+  "140494" : {
+    "country" : "ZM",
+    "lat" : "-14.98293",
+    "lng" : "27.0619",
+    "name" : "Mumbwa"
+  }
+}

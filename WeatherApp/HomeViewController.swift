@@ -42,7 +42,9 @@ class HomeViewController: UIViewController {
         btn.layer.cornerRadius = 16
         btn.rx.tap.subscribe(onNext: { _ in
             Task{
-            let weatherData = await WeatherService().fetchWeatherDataForLocation(latitude: NSNumber(value: 15.496777), longitude: NSNumber(value: 73.827827))
+          //  let weatherData = await WeatherService().fetchWeatherDataForLocation(latitude: NSNumber(value: 15.496777), longitude: NSNumber(value: 73.827827))
+                
+                let places = await PlacesAutocompleteService().getGeoCodeDataFor(placeName: "Lon")
             }
         }).disposed(by: self.disposeBag)
         self.view.addSubview(btn)
